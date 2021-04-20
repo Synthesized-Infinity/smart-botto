@@ -2,11 +2,10 @@ import Base from './2.Fetch'
 
 /** Chat Methods */
 export default class Chat extends Base {
-
     /**
      * Chat with the bot
      * @param {options} options Chat options
-     * @returns {response} response 
+     * @returns {response} response
      */
     chat = async (options: options) => {
         const url = encodeURI(`${this.endpoint}?message=${options.message}&bot=${this.name}&user=${options.user}`)
@@ -17,14 +16,14 @@ export default class Chat extends Base {
 
 interface options {
     /** Message to pass to the bot */
-    message: string,
+    message: string
     /** User ID of the person who is texting the bot */
     user: string
 }
 
 interface response {
     /** Message passed to the bot */
-    message: string,
+    message: string
     /** Response given by the bot */
     response: string
 }
