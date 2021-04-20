@@ -8,7 +8,9 @@
     "tests"
   ],
   "scripts": {
-    "test": "node tests"
+    "test": "node tests",
+    "lint": "eslint \"src/**/*.ts\"",
+    "prettier-format": "prettier --config .prettierrc \"src/**/*.ts\" --write"
   },
   "repository": {
     "type": "git",
