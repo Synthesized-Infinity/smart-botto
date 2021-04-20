@@ -1,0 +1,36 @@
+{
+  "name": "smart-botto",
+  "version": "0.0.1",
+  "description": "Smart Chatbot based onhttps://express-is-fun.herokuapp.com",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synthesized-Infinity/smart-botto.git"
+  },
+  "keywords": [
+    "chatbot",
+    "discord",
+    "bot",
+    "chat",
+    "whatsapp",
+    "eif"
+  ],
+  "author": "Sythesized Inifinity",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Synthesized-Infinity/smart-botto/issues"
+  },
+  "homepage": "https://github.com/Synthesized-Infinity/smart-botto#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "prettier": "^2.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0"
+  }
+}
