@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Smart Chatbot based onhttps://express-is-fun.herokuapp.com",
   "main": "dist/index.js",
+  "files": [
+    "dist",
+    "tests"
+  ],
   "scripts": {
     "test": "node tests"
   },
