@@ -1,6 +1,6 @@
 {
   "name": "smart-botto",
-  "version": "!.0.0",
+  "version": "1.0.0",
   "description": "Smart Chatbot based onhttps://express-is-fun.herokuapp.com",
   "main": "dist/index.js",
   "files": [
